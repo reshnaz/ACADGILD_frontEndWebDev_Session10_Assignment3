@@ -1,6 +1,22 @@
 # S10A3
 
+Note: All output related files are under the folder "src/app".
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.4.
+
+## Problem Statement
+1. Create a form with 3 input,1 dropdown fields and a button with Reactive
+FormBuilder.
+2. The drop down filed values should be displayed on initialization using services.
+3. The input and the dropdown fields should use two-way binding. Create a model
+for the fields and initialize them on ngOnInit().Add a CSS class for required fields and
+valid fields.
+4. Make all the fields required. The input field should make use of Regex for only
+accepting alphabets. The error message should be shown as the error occurred. If the
+form is not valid do not submit the value.
+5. Create a service for sending the data and retrieving the data.
+6. Create a function which will bind with the (ngSubmit). Once you click that button
+it should send the data in the parameter and it should display the data in View.
 
 ## Development server
 
